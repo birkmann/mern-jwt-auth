@@ -15,7 +15,8 @@ Make sure to add your own `MONGOURI` in `config/keys.js`.
 
 ```javascript
 module.exports = {
-  mongoURI: "YOUR_MONGO_URI_HERE",
+  mongoURI = "mongodb+srv://dbUser:<w8P33q1qADibXHWf>@cluster0-6nxui.mongodb.net/test?retryWrites=true&w=majority";
+
   secretOrKey: "secret"
 };
 ```
